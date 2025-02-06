@@ -1,8 +1,8 @@
-# OpenImageIO with OpenColorIO Build System
+# OpenImageIO with OpenColorIO Build System for Rocky Linux 9 🚀
 
-This repository contains scripts and configuration files for building OpenImageIO with OpenColorIO v2.3.1 support and Python 3.9 integration.
+This repository contains scripts and configuration files for building OpenImageIO with OpenColorIO v2.3.1 support and Python 3.9 integration, specifically optimized for Rocky Linux 9 environments 🐧.
 
-## Repository Structure
+## Repository Structure 📁
 
 - `build_all.sh` - Main script that orchestrates the entire build process
 - `build_ocio.sh` - Script for building OpenColorIO
@@ -14,14 +14,15 @@ This repository contains scripts and configuration files for building OpenImageI
 ### Rez Package
 The `oiio_install` directory contains a Rez package configuration for OpenImageIO, managing dependencies and environment setup.
 
-## Requirements
+## Requirements ⚙️
 
+- Rocky Linux 9
 - Python 3.9
 - Boost
 - OpenEXR
 - CMake
 
-## Tools Included
+## Tools Included 🛠️
 
 The build includes the following OpenImageIO command-line tools:
 - iconvert
