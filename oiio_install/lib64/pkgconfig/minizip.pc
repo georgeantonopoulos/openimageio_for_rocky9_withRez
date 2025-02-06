@@ -1,0 +1,14 @@
+prefix=/tmp/oiio_tmp_install
+exec_prefix=/tmp/oiio_tmp_install
+libdir=/tmp/oiio_tmp_install/lib64
+sharedlibdir=/tmp/oiio_tmp_install/lib64
+includedir=/tmp/oiio_tmp_install/include
+
+Name: minizip
+Description: Minizip zip file manipulation library
+Version: 3.0.7
+
+Requires: zlib
+Libs: -L${libdir} -L${sharedlibdir} -lminizip
+Libs.private: -lz -lliblzma -lzstd -lssl -lcrypto
+Cflags: -I${includedir}
